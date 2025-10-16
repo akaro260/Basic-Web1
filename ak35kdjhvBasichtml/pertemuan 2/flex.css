@@ -1,0 +1,92 @@
+body{
+    font-family: poppins;
+}
+h1 {
+    text-align: center;
+    color: #0c084c; 
+    font-size: 43px;   
+}
+p{
+    text-align: center;
+    color: #0c084c;
+    
+}
+hr{
+    color: red;
+    margin-bottom: 20px;
+}
+.jurusan{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+
+}
+.tkj{
+    
+    padding: 20px;
+    background-color: #f2f5f7;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.DKV{
+ padding: 20px;
+ background-color: #f2f5f7;
+ border-radius: 20px;
+}
+
+.RPL{
+ padding: 20px;
+ background-color: #f2f5f7;
+ border-radius: 20px;
+ margin-left: 20px;
+}
+.pl{
+    color: #f2f5f7;
+    text-align: center;
+    background-color: #F1A204;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: 700 ;
+    font-size: larger;
+}
+
+.po {
+    
+    color: #f2f5f7;
+    text-align: center;
+    background-color: #F1A204;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: 700 ;
+    font-size: larger;
+}
+
+.pa{
+    color: #f2f5f7;
+    text-align: center;
+    background-color: #F1A204;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: 700 ;
+    font-size: larger;
+}
+
+.silabus{
+    margin-top: 20px;
+    background-color: #0c084c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 9px;
+}
+.ple {
+    padding: 0px 0px 15px;
+}
+ 
+.plo{
+    color: #687279;
+}

@@ -1,0 +1,28 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    background-color: bisque;
+}
+.container{
+    width: 100%;
+
+}
+.navbar{
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    list-style-type: none ;
+    display: flex;
+    
+}
+.menu ul li a {
+    margin:5px;
+    color: black;
+    border-radius: 50px;
+    text-decoration: none;    
+}
