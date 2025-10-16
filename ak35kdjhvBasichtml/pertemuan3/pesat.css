@@ -1,5 +1,6 @@
 body{
 font-family: "Poppins", sans-serif; 
+max-width: px;
 }
 
 .ireng{
@@ -205,9 +206,10 @@ font-family: "Poppins", sans-serif;
 .tarot{
     text-align: center;
     margin-top: 4%;
-    width: 1500px;
+    /* width: 1500px; */
     margin-left: 10%;
     margin-right: 1px;
+    max-width: 1500px
     
 }
 .why{
@@ -221,9 +223,10 @@ font-family: "Poppins", sans-serif;
 }
 .shando1{
     flex-direction: row;
-    justify-content: center ;
+    justify-content: space-evenly ;
     display: flex;
-    gap: 50px;
+    max-width: 1000px;
+    
    
 }
 .VP {
@@ -231,7 +234,7 @@ font-family: "Poppins", sans-serif;
  width: 366px;   height: auto;
  display: flex;
  border-radius: 30px;
- margin-left: 50px;
+ margin-left: 100px;
 
 }
 .ummar  {
@@ -249,12 +252,14 @@ font-family: "Poppins", sans-serif;
     width: 367px;
     height: auto;
     margin-left: 50px;
+    border-radius: 30px;
 }
 .lpos{
     width: 367px;
-    height: 367px;
-    margin-top: 10%;   
-    
+    height: auto;
+    margin-top: 30px ;
+ 
+;
 
 }
 .pok{
@@ -262,14 +267,16 @@ font-family: "Poppins", sans-serif;
     text-align: left;
     font-size: 16px;  
     padding:1px 1px;  
-    margin-left: 30px;
+    margin-left: 0px;
     padding-top: 20px;
 }
 .kata23{
     width: 366px;   height: auto;
     display: flex;
     border-radius: 30px;
-    margin-left: 50px;
+    margin-left: 100px;
+    margin-top: 10;
+
 }
 .chra{
     font-size: 16px;
@@ -283,9 +290,164 @@ font-family: "Poppins", sans-serif;
     text-align: left;
     font-size: 16px;  
     padding:1px 1px;  
-    margin-left: 30px;
-    padding-top: 10px;
+    margin-left: 25px;
+    padding-top: 20px;
     line-height: 30px;
 }
 
 
+.foot{
+    background-color: #0c084c;
+    width: 218px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-left: 15%;
+}
+.alim{
+    background-color: aqua;
+    display: flex;
+    width: 367px;
+    height: auto;
+    border-radius: 30px;
+    margin-left: 60px;
+    ;
+}
+.iloa{
+    list-style-type: none;
+    text-align: left;
+    font-size: 16px;  
+    padding:1px 1px;  
+    padding-top: 20px;
+    line-height: 30px;
+    margin-left: 25px;
+}
+.lios{
+    list-style-type: none;
+    text-align: left;
+    font-size: 16px;  
+    padding:1px 1px;  
+    margin-left: 30px;
+    padding-top: 20px;
+    line-height: 30px;
+    font-weight: 200px ;
+}
+.opip{
+    background-color: aqua;
+    max-width: 1120px;
+    margin: auto;
+}
+h1 {
+    margin-top: 400px;
+    gap: 20px; 
+    text-align: center;
+    color: #0c084c; 
+    font-size: 43px;   
+}
+p{
+    text-align: center;
+    color: #0c084c;
+    
+}
+hr{
+    color: red;
+    margin-bottom: 20px;
+}
+.jurusan{
+    
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+
+
+}
+.tkj{
+    
+    padding: 20px ;
+    background-color: #f2f5f7;
+    border-radius: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.DKV{
+ padding: 20px;
+ background-color: #f2f5f7;
+ border-radius: 20px;
+ list-style-type: none;
+ 
+}
+
+.RPL{
+ padding: 20px;
+ background-color: #f2f5f7;
+ border-radius: 20px;
+ margin-left: 20px;
+ list-style-type: none;
+}
+.pl{
+    color: #f2f5f7;
+    text-align: center;
+    background-color: #F1A204;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: 700 ;
+    font-size: larger;
+}
+
+.po {
+    
+    color: #f2f5f7;
+    text-align: center;
+    background-color: #F1A204;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: 700 ;
+    font-size: larger;
+}
+
+.pa{
+    color: #f2f5f7;
+    text-align: center;
+    background-color: #F1A204;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: 700 ;
+    font-size: larger;
+}
+
+.silabus{
+    margin-top: 20px;
+    background-color: #0c084c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 9px;
+}
+.ple {
+    padding: 0px 0px 15px;
+}
+ 
+.plo{
+    color: #687279;
+}
+.fa-compass-drafting{
+    background-color: #f1a204;
+    color: white;
+}
+.fa-network-wired{
+    background-color: #f1a204;
+    color: white;
+}
+.fa-code{
+    background-color: #f1a204;
+    color: white;
+}
+.fa-file{
+    color: white;
+}
