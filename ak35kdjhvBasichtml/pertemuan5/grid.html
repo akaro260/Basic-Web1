@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grid.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+
+</head>
+
+<body>
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="https://tse4.mm.bing.net/th/id/OIP.aYOWBlkNDyD2nfoN9bTBWAHaEo?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3" alt=""></div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide ">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide ">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+      </div>
+
+    </div>
+  </div>
+  <!-- <p class="append-buttons">
+    <button class="prepend-2-slides">Prepend 2 Slides</button>
+    <button class="prepend-slide">Prepend Slide</button>
+    <button class="append-slide">Append Slide</button>
+    <button class="append-2-slides">Append 2 Slides</button>
+  </p> -->
+
+
+    <!-- <div class="swiper container mySwiper">
+        <div class="griditemitem1"> <img src="https://media.discordapp.net/attachments/1017738393653882991/1429332358993285191/RobloxScreenShot20251019_125609424.png?ex=68f90cbe&is=68f7bb3e&hm=d515c00fe4da6cc17c8d9c72d34ec228a06a35dc440e8842ce7e2e7d0471c5f6&=&format=webp&quality=lossless&width=1382&height=777" alt="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea voluptates neque vel suscipit cumque velit rerum! </div>
+        <div class="griditemitem2"> <img src="https://media.discordapp.net/attachments/1017738393653882991/1429332358993285191/RobloxScreenShot20251019_125609424.png?ex=68f90cbe&is=68f7bb3e&hm=d515c00fe4da6cc17c8d9c72d34ec228a06a35dc440e8842ce7e2e7d0471c5f6&=&format=webp&quality=lossless&width=1382&height=777" alt="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur at, omnis possimus tenetur ab officiis </div>
+        <div class="griditemitem3"> <img src="https://media.discordapp.net/attachments/1017738393653882991/1429332358993285191/RobloxScreenShot20251019_125609424.png?ex=68f90cbe&is=68f7bb3e&hm=d515c00fe4da6cc17c8d9c72d34ec228a06a35dc440e8842ce7e2e7d0471c5f6&=&format=webp&quality=lossless&width=1382&height=777" alt="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi rem deserunt quas beatae, quibusdam a iste </div>   -->
+    </div>
+    <!-- <div class="container2">
+        <div class="ad1">1</div>
+        <div class="ad2">2</div>
+        <div class="ad3">3</div>
+        <div class="ad4">4</div>
+    </div> -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js">
+     import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.mjs'
+</script>
+<script>
+   var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      centeredSlides: true,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    var appendNumber = 4;
+    var prependNumber = 1;
+    document
+      .querySelector(".prepend-2-slides")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.prependSlide([
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+        ]);
+      });
+    document
+      .querySelector(".prepend-slide")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.prependSlide(
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+        );
+      });
+    document
+      .querySelector(".append-slide")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.appendSlide(
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+        );
+      });
+    document
+      .querySelector(".append-2-slides")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.appendSlide([
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+        ]);
+      });
+  </script>
+</html>

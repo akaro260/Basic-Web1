@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px
+}
+.container{
+    max-width: 600px;
+    margin: auto;
+    background-color: aqua;
+    height: auto;
+    padding: 20px;
+
+}
+h3{
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+input[type="text"],select,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.email{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.pesan{
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pesan:hover{
+    background-color: darkblue;
+}
+
+

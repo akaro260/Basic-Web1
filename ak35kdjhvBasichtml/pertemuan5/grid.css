@@ -1,0 +1,112 @@
+.container{
+    display: grid;
+    grid-template-areas: "fr fp po";
+    gap: 10px;
+  width: 600px;
+  height: 300px;
+}
+/* .swiper {
+      width: 100%;
+      height: 100%;
+    }
+    .griditemitem1 , .griditemitem2, .griditemitem3 {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .griditemitem1  , .griditemitem2, .griditemitem3 img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    } */
+
+/* .container .griditemitem1{
+    grid-area: fr;
+    background-color: aqua;
+}
+.container .griditemitem2{
+    grid-area: fp;
+    background-color: lightgreen;
+}
+.container .griditemitem3{
+    grid-area: po;
+    background-color: lightcoral;
+}
+.container2{
+    display: grid;
+    grid-template-areas: "aw de" "io pl";
+    gap: 10px;
+    margin-top: 20px;
+}
+.container2 .ad1{
+    grid-area: aw;
+    background-color: lightpink;
+}
+.container2 .ad2{
+    grid-area: de;
+    background-color: lightseagreen;
+}
+.container2 .ad3{
+    grid-area: io;
+    background-color: lightyellow;
+}
+.container2 .ad4{
+    grid-area: pl;
+    background-color: lightgray;
+} */
+   html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #000;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 50%;
+      height: 60%;
+      object-fit: cover;
+    }
+
+    .swiper {
+      width: 50%;
+      height: 60%;
+    }
+
+    .append-buttons {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .append-buttons button {
+      display: inline-block;
+      cursor: pointer;
+      border: 1px solid #007aff;
+      color: #007aff;
+      text-decoration: none;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin: 0 10px;
+      font-size: 13px;
+    }
