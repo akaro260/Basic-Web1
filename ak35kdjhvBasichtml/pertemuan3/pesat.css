@@ -1152,4 +1152,7 @@ p {
     }
 }
 @media screen and (max-width :430px) {
+  .Website_RPL_Container{
+    gap: 60px;
+  }
 }

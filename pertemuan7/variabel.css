@@ -1,0 +1,12 @@
+:root{
+    --warnaPrimary : black;
+    --warknaSekuder : green;
+    --borderRadius : 10px ;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--warknaSekuder);
+    color: var(--warnaPrimary);
+
+}
